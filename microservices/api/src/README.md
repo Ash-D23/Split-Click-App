@@ -24,9 +24,3 @@ The Api contains admin token as a secret which is used for joining two tables. T
 Secret updated admin_token=[value]
 
 ```
-
-## Migrating your existing express.js app
-
-* If you have an existing express.js app which you would like to deploy, replace the code inside `/microservices/api/src/` according to your app.
-* You may need to modify the Dockerfile if your `package.json` or the build directory location has changed, but in most cases, it won't be required.
-* Commit, and run `git push hasura master` to deploy your app.
