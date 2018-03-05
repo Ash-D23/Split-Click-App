@@ -15,3 +15,8 @@ cd Splitwise`
 * react-native link react-native-vector-icons
 * react-native run-ios/react-native run-android
 * App will now run on simulator/emulator.
+
+#### Opening the app
+* Run npm start from the react-native directory.
+* Scan the generated QR code using the Expo app from your phone (Install from Playstore/Appstore)
+* Fully working app will open on your phone
