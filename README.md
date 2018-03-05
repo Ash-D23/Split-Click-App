@@ -9,6 +9,8 @@ You signup and enter your your infrmation then create a group and add members to
 * A react native app of the splitwise app clone which consists of the basic functionalities like creating group,organizing bills and splitting bills etc.
 * A backend API managing the authentication and database of the app with the help of hasura's data and auth api.
 
+![React-native](https://github.com/Ash-D23/spliwise-app-clone/blob/master/readme-assets/1.png) ![React-native](https://github.com/Ash-D23/spliwise-app-clone/blob/master/readme-assets/2.png)
+
 ## Deployment instructions
 
 ### Basic deployment:
