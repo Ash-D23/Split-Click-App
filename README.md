@@ -73,4 +73,7 @@ Secret updated admin_token=[value]
 * You may need to modify the Dockerfile if your `package.json` or the build directory location has changed, but in most cases, it won't be required.
 * Commit, and run `git push hasura master` to deploy your app.
 
+##  Contributors 
 
+* Gaurav Tejwani (gaurav.tejwani.97@gmail.com)
+* Ashutosh Kumar (ak6214651@gmail.com)
