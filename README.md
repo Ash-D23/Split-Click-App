@@ -39,8 +39,12 @@ cd Splitwise`
 * react-native run-ios/react-native run-android
 * App will now run on simulator/emulator.
 
-
 ![React-native](https://github.com/Ash-D23/spliwise-app-clone/blob/master/readme-assets/Simulator%20Screen%20Shot%2005-Mar-2018%2C%2012.17.50%20AM.png)
+
+#### Opening the app
+* Run npm start from the react-native directory.
+* Scan the generated QR code using the Expo app from your phone (Install from Playstore/Appstore)
+* Fully working app will open on your phone
 
 ### Backend API
 
