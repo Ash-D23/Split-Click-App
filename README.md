@@ -39,6 +39,9 @@ cd Splitwise`
 * react-native run-ios/react-native run-android
 * App will now run on simulator/emulator.
 
+
+![React-native](https://github.com/Ash-D23/spliwise-app-clone/blob/master/readme-assets/Simulator%20Screen%20Shot%2005-Mar-2018%2C%2012.17.50%20AM.png)
+
 ### Backend API
 
 Authentication (login/signup) is handled by using hasura auth api and data is stored in the database using hasura's data API.
