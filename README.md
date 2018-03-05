@@ -21,6 +21,33 @@ You signup and enter your your infrmation then create a group and add members to
 ``` shell
 $ hasura microservice open api
 ```
+## REACT NATIVE APP (Mobile version)
+
+A clone of a popular bill/expense sharing app “Splitwise” app, as a part of the hasura product Development  Fellowship program(HPDF). This app is a react-native app. It requires the user of the app to create a group, thereby adding members based on their phone numbers. Once the group is created, the user is expected to add the name of the bill along with the cost of individual user. After clicking on the split button in the app,the app will display the usernames of that particular group  along with costs.
+
+### GET STARTED WITH THE APP
+
+`react-native init Splitwise
+cd Splitwise`
+* npm install --save react-native-router-flux
+* npm install --save react-navigation
+* npm install react-native-elements --save
+* npm install --save react-native-vector-icons
+* react-native link react-native-vector-icons
+* react-native run-ios/react-native run-android
+* App will now run on simulator/emulator.
+
+### Backend API
+
+Authentication (login/signup) is handled by using hasura auth api and data is stored in the database using hasura's data API.
+The database contains four tables :
+* userinfo : which stores details like hasura_id,phone_no,user_name,email_id
+* groups: which conatains group_id and group_name
+* usergroups: which conatains information like group_name,group_id,user_name,hasura_id
+* userbiils: which contains informations about the bills: bill_no,bill name,group_id,hasura_id,user_name,user_payed,user_dues,user_payed,split
+
+The Api contains admin token as a secret which is used for joining two tables. To add secret include :
+``` Secret updated admin_token=[value] ```
 
 ### Making changes and deploying
 
