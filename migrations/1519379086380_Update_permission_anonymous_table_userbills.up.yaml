@@ -1,0 +1,6 @@
+- args:
+    permission:
+      check: {}
+    role: anonymous
+    table: userbills
+  type: create_insert_permission

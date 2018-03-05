@@ -1,0 +1,9 @@
+- args:
+    sql: ALTER TABLE "userbills" ALTER COLUMN "split" TYPE boolean;
+  type: run_sql
+- args:
+    sql: ALTER TABLE ONLY "userbills" ALTER COLUMN "split" SET DEFAULT false;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "userbills" ALTER COLUMN "split" DROP NOT NULL;
+  type: run_sql

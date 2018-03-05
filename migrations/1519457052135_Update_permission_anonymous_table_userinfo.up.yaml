@@ -1,0 +1,15 @@
+- args:
+    role: anonymous
+    table: userinfo
+  type: drop_update_permission
+- args:
+    permission:
+      columns:
+      - hasura_id
+      - email_id
+      - phone_no
+      - user_name
+      filter: {}
+    role: anonymous
+    table: userinfo
+  type: create_update_permission

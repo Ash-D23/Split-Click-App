@@ -1,0 +1,7 @@
+- alias: hasura
+  config:
+    configmap: controller-conf
+    namespace: detoxification67-hasura
+  data: null
+  kubeContext: detoxification67
+  name: detoxification67

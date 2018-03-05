@@ -1,0 +1,4 @@
+- args:
+    role: anonymous
+    table: userbills
+  type: drop_insert_permission

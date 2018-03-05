@@ -1,0 +1,9 @@
+- args:
+    sql: ALTER TABLE "userbills" ALTER COLUMN "bill_date" TYPE date;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "userbills" ALTER COLUMN "bill_date" DROP DEFAULT;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "userbills" ALTER COLUMN "bill_date" DROP NOT NULL;
+  type: run_sql

@@ -1,0 +1,11 @@
+- args:
+    permission:
+      columns:
+      - user_name
+      - hasura_id
+      - s.no
+      - group_id
+      filter: {}
+    role: anonymous
+    table: usergroups
+  type: create_select_permission

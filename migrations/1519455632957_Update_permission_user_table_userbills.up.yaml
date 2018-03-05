@@ -1,0 +1,15 @@
+- args:
+    permission:
+      columns:
+      - user_due
+      - hasura_id
+      - bill_name
+      - user_payed
+      - bill_no
+      - split
+      - bill_date
+      - group_id
+      filter: {}
+    role: user
+    table: userbills
+  type: create_update_permission

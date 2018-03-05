@@ -1,0 +1,9 @@
+- args:
+    permission:
+      columns:
+      - s.no
+      - user_name
+      filter: {}
+    role: user
+    table: usergroups
+  type: create_update_permission

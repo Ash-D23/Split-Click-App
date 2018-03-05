@@ -1,0 +1,3 @@
+- args:
+    sql: select hasura_id from usergroups;
+  type: run_sql

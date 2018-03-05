@@ -1,0 +1,9 @@
+- args:
+    permission:
+      columns:
+      - email_id
+      - phone_no
+      filter: {}
+    role: anonymous
+    table: userinfo
+  type: create_update_permission

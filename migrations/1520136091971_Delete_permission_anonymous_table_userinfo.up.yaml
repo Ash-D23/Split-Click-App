@@ -1,0 +1,4 @@
+- args:
+    role: anonymous
+    table: userinfo
+  type: drop_update_permission

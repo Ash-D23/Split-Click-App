@@ -1,0 +1,19 @@
+- args:
+    role: anonymous
+    table: userbills
+  type: drop_select_permission
+- args:
+    permission:
+      columns:
+      - bill_date
+      - bill_name
+      - bill_no
+      - group_id
+      - hasura_id
+      - split
+      - user_due
+      - user_payed
+      filter: {}
+    role: anonymous
+    table: userbills
+  type: create_select_permission

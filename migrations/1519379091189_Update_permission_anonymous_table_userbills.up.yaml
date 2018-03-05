@@ -1,0 +1,13 @@
+- args:
+    permission:
+      columns:
+      - hasura_id
+      - group_id
+      - bill_no
+      - user_due
+      - user_payed
+      - bill_name
+      filter: {}
+    role: anonymous
+    table: userbills
+  type: create_select_permission

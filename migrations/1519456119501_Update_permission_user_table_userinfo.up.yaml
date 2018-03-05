@@ -1,0 +1,11 @@
+- args:
+    permission:
+      columns:
+      - hasura_id
+      - phone_no
+      - email_id
+      - user_name
+      filter: {}
+    role: user
+    table: userinfo
+  type: create_select_permission

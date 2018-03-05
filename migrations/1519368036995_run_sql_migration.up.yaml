@@ -1,0 +1,3 @@
+- args:
+    sql: select * from usergroup;
+  type: run_sql

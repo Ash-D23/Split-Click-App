@@ -1,0 +1,4 @@
+- args:
+    sql: ALTER TABLE "usergroups" ADD FOREIGN KEY ("group_id") REFERENCES "group"
+      ("group_id")
+  type: run_sql

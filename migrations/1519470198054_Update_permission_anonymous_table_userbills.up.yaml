@@ -1,0 +1,19 @@
+- args:
+    role: anonymous
+    table: userbills
+  type: drop_update_permission
+- args:
+    permission:
+      columns:
+      - split
+      - bill_date
+      - bill_name
+      - group_id
+      - bill_no
+      - user_due
+      - user_payed
+      - hasura_id
+      filter: {}
+    role: anonymous
+    table: userbills
+  type: create_update_permission

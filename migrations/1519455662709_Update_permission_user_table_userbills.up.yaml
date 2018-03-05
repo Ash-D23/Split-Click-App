@@ -1,0 +1,18 @@
+- args:
+    role: user
+    table: userbills
+  type: drop_update_permission
+- args:
+    permission:
+      columns:
+      - bill_date
+      - bill_name
+      - bill_no
+      - hasura_id
+      - split
+      - user_due
+      - user_payed
+      filter: {}
+    role: user
+    table: userbills
+  type: create_update_permission
